@@ -1,0 +1,98 @@
+.logo span {
+  color: white;
+  font-weight: 800;
+  font-size: 35px;
+}
+.logo small {
+  color: #3b86ff;
+  position: absolute;
+  top: -7px;
+  padding-left: 7px;
+  font-weight: 300;
+  font-size: 10px;
+}
+.user {
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  color: white;
+  border-radius: 50%;
+  border: 3px solid;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  display: flex;
+  margin-top: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.head h3 {
+  font-weight: 700;
+  color: #3b86ff;
+}
+.head small {
+  color: #b9c0ce;
+}
+.ant-card-body {
+  padding: 0px !important;
+}
+
+.card {
+  width: 300px;
+  border-radius: 6px !important;
+}
+.card img {
+  width: 300px;
+  height: 224px;
+  margin-top: 30px;
+}
+.card h4 {
+  margin: auto;
+  display: table;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.num {
+  color: #3b86ff;
+  font-weight: 700;
+  font-size: 25px;
+}
+.icon {
+  color: #3b86ff !important;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #ebf3ff;
+  padding: 15px;
+  align-content: center;
+  align-items: center;
+}
+.body {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.btn-home {
+  color: #3b86ff !important;
+  font-size: 25px;
+  border-radius: 6px !important;
+  background-color: #ebf3ff !important;
+  padding: 13px 0px 35px !important;
+  align-content: center !important;
+  justify-content: center !important;
+  font-weight: 400 !important;
+  border: none !important;
+  align-items: center !important;
+
+  margin-top: 30px;
+  margin-bottom: 100px;
+  width: 300px;
+}
