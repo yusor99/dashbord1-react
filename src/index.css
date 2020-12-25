@@ -1,3 +1,7 @@
+.ant-layout-header {
+  background: #24292e !important;
+}
+
 .logo span {
   color: white;
   font-weight: 800;
@@ -95,4 +99,17 @@
   margin-top: 30px;
   margin-bottom: 100px;
   width: 300px;
+}
+.state-active {
+  background-color: white !important;
+  width: 435px;
+  height: 140px;
+  border-radius: 6px;
+  border-color: #e1e4e8 !important;
+  box-shadow: -2px 3px 9px 0px #e1e4e8 !important;
+  margin: 20px !important;
+}
+.ant-alert-with-description .ant-alert-description {
+  color: #b9c0ce !important;
+  margin-top: 10px;
 }
