@@ -49,7 +49,7 @@ const Categories = () => {
             </Row>
 
             <Row>
-              <Button className="btn-home">Primary Button</Button>
+              <Button className="btn-home">Add new product</Button>
             </Row>
           </Col>
           <Col sm={24} md={12} lg={8}>
@@ -85,7 +85,7 @@ const Categories = () => {
               </Card>
             </Row>
             <Row>
-              <Button className="btn-home">Primary Button</Button>
+              <Button className="btn-home">Add new customer</Button>
             </Row>
           </Col>
           <Col sm={24} md={12} lg={8}>
@@ -121,7 +121,7 @@ const Categories = () => {
               </Card>
             </Row>
             <Row>
-              <Button className="btn-home">Primary Button</Button>
+              <Button className="btn-home"> Add new employee</Button>
             </Row>
           </Col>
         </Row>

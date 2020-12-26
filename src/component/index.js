@@ -1,14 +1,15 @@
-import Categories from "./categories";
+/**import Categories from "./categories";
 import Navbar from "./navbar";
-import State from "./state";
-
+import State from "./state"; */
+import Product from "./productList";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Categories />
-      <State />
+      <Product />
     </>
   );
 };
 export default Home;
+/** <Navbar />
+      <Categories />
+      <State /> */
