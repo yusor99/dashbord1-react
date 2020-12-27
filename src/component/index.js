@@ -1,11 +1,12 @@
 /**import Categories from "./categories";
 import Navbar from "./navbar";
-import State from "./state"; */
-import Product from "./productList";
+import State from "./state";
+import Product from "./productList"; */
+import NewProduct from "./newProduct";
 const Home = () => {
   return (
     <>
-      <Product />
+      <NewProduct />
     </>
   );
 };

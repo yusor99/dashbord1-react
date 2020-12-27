@@ -1,0 +1,40 @@
+.ant-form-item-label > label::after {
+  content: none !important;
+}
+.container-form {
+  max-width: 800px;
+  max-height: 100px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+}
+.title {
+  background-color: #f6f8fa;
+  padding: 5px 25px;
+}
+.title h1 {
+  font-weight: 400 !important;
+}
+.container-felides {
+  max-width: 750px;
+  margin: auto;
+  margin-top: 5%;
+  max-height: 500px;
+}
+.ant-form-item {
+  display: block;
+  border-radius: 6px !important;
+}
+.ant-input-number {
+  width: 100%;
+  border-radius: 6px;
+}
+.ant-input {
+  border-radius: 6px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 6px;
+}
+.container-form button {
+  border-radius: 6px;
+}

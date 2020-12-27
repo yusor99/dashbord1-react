@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import "./index.css";
+import "../src/index.css";
 
 import "antd/dist/antd.css";
 import Home from "./component/index";
