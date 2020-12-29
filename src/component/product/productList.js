@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Navbar from "./navbar";
+import Navbar from "../navbar";
 import { Button, Input } from "antd";
 import {
   SearchOutlined,

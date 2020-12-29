@@ -2,7 +2,8 @@
 import Navbar from "./navbar";
 import State from "./state";
 import Product from "./productList"; */
-import NewProduct from "./newProduct";
+import NewProduct from "../component/product/newProduct";
+
 const Home = () => {
   return (
     <>
