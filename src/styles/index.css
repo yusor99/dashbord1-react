@@ -5,7 +5,9 @@
 .ant-layout-header {
   background: #24292e !important;
 }
-
+.portable {
+  max-width: 900px !important;
+}
 .logo span {
   color: white;
   font-weight: 800;
@@ -148,4 +150,3 @@
 .ant-input-affix-wrapper {
   max-width: 300px !important;
 }
-

@@ -10,6 +10,7 @@ import {
 } from "@ant-design/icons";
 import { DownOutlined } from "@ant-design/icons";
 import { Menu, Dropdown } from "antd";
+import TableCom from './tableCom';
 const { SubMenu } = Menu;
 const menu = (
   <Menu>
@@ -152,6 +153,7 @@ const Product = () => {
             </span>
           </div>
         </div>
+        <TableCom/>
       </div>
     </>
   );

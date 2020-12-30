@@ -56,7 +56,7 @@ const NewProduct = () => {
             </Row>
           </div>
           <div className="container-felides">
-            <Row gutter={[32, 20]}>
+            <Row gutter={[32, 0]}>
               <Col sm={24} md={12}>
                 <Form.Item
                   name={["user", "name"]}
@@ -77,7 +77,7 @@ const NewProduct = () => {
               </Col>
             </Row>
 
-            <Row gutter={[32, 20]}>
+            <Row gutter={[32, 0]}>
               <Col md={8} sm={12}>
                 <Form.Item
                   name="select"
