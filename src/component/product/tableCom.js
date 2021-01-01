@@ -56,7 +56,6 @@ const TableCom = () => {
     <>
       <div className="portable">
         <Table
-          style={{ borderRadius: 20 }}
           columns={tableColumns}
           rowSelection={rowSelection}
           dataSource={data}
