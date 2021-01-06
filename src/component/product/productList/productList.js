@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 import { DownOutlined } from "@ant-design/icons";
 import { Menu, Dropdown } from "antd";
-import TablePro2 from "./tablePro2";
+import TablePro1 from "./tablePro1";
 const { SubMenu } = Menu;
 const menu = (
   <Menu>
@@ -153,7 +153,7 @@ const Product = () => {
             </span>
           </div>
         </div>
-        <TablePro2 />
+        <TablePro1 />
       </div>
     </>
   );

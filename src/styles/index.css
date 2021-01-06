@@ -125,6 +125,7 @@ div .ant-row .body {
   flex-direction: row;
   margin-top: 50px;
   padding-bottom: 20px;
+  flex-wrap: wrap;
 }
 .icon-show {
   color: #e1e4e8;
@@ -139,11 +140,7 @@ div .ant-row .body {
   margin: 5px;
   border-radius: 6px !important;
 }
-.search-left {
-  flex: 60%;
-  display: flex;
-  flex-direction: row;
-}
+
 .search-left {
   flex: 60%;
   float: left;
@@ -151,7 +148,6 @@ div .ant-row .body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .ant-input-affix-wrapper {
   max-width: 300px !important;
 }

@@ -1,6 +1,8 @@
 import { Table, Pagination } from "antd";
 import { useState } from "react";
+import { Tag } from "antd";
 
+const { Column } = Table;
 const columns = [
   {
     title: "#",
@@ -31,6 +33,11 @@ const columns = [
     title: "Price",
     dataIndex: "price",
     sorter: true,
+    render: (price) => (
+      <span>
+        <Tag color="blue">{price}</Tag>
+      </span>
+    ),
   },
 ];
 
@@ -72,8 +79,11 @@ const TablePro2 = () => {
               <Pagination simple defaultCurrent={1} total={6} />
             </div>
           )}
-          bordered
-        ></Table>
+        >
+          <Column title="Price" dataIndex="price">
+            <Tag color="blue">{data.price}</Tag>
+          </Column>
+        </Table>
       </div>
     </>
   );

@@ -38,6 +38,14 @@
   font-weight: 400 !important;
   font-size: 12px !important;
 }
+.product-table .ant-tag-blue {
+  border: none;
+  color: #1890ff;
+  background: #e6f7ff;
+  border-color: #91d5ff;
+  padding: 0px 13px;
+  border-radius: 6px;
+}
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 900px;
@@ -56,6 +64,12 @@
 @media screen and (max-width: 650px) {
   .container {
     max-width: 400px;
+  }
+  .search-left {
+    flex: 80%;
+  }
+  .product-header .right {
+    flex: 20%;
   }
 }
 @media screen and (max-width: 450px) {
