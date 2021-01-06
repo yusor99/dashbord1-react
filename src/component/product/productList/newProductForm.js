@@ -49,9 +49,9 @@ const NewProduct = () => {
             <Row>
               <Col span={23}>
                 <h1>Add new product</h1>
-              </Col >
+              </Col>
               <Col span={1}>
-                <CloseOutlined  className="close"/>
+                <CloseOutlined className="close" />
               </Col>
             </Row>
           </div>
@@ -106,7 +106,7 @@ const NewProduct = () => {
                     },
                   ]}
                 >
-                  <Input />
+                  <Input placeholder="Plates and Secrews" />
                 </Form.Item>
               </Col>
               <Col md={8} sm={12}>
@@ -119,7 +119,7 @@ const NewProduct = () => {
                     },
                   ]}
                 >
-                  <Input />
+                  <Input placeholder="Trauma" />
                 </Form.Item>
               </Col>
             </Row>

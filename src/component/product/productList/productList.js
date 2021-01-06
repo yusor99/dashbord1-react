@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Navbar from "../navbar";
+import Navbar from "../../navbar";
 import { Button, Input } from "antd";
 import {
   SearchOutlined,
@@ -10,7 +10,7 @@ import {
 } from "@ant-design/icons";
 import { DownOutlined } from "@ant-design/icons";
 import { Menu, Dropdown } from "antd";
-import TableCom from './tableCom';
+import TablePro2 from "./tablePro2";
 const { SubMenu } = Menu;
 const menu = (
   <Menu>
@@ -149,11 +149,11 @@ const Product = () => {
             </Button>
             <span className="icon-show">
               <AppstoreOutlined />
-              <BarsOutlined />
+              <BarsOutlined className="active" />
             </span>
           </div>
         </div>
-        <TableCom/>
+        <TablePro2 />
       </div>
     </>
   );

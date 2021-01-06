@@ -2,6 +2,9 @@
   max-width: 1000px;
   margin: auto;
 }
+body {
+  max-height: 100vh;
+}
 .ant-layout-header {
   background: #24292e !important;
 }
@@ -50,7 +53,9 @@
 .ant-card-body {
   padding: 0px !important;
 }
-
+div .ant-row .body {
+  margin: 10px 25px;
+}
 .card {
   width: 300px;
   border-radius: 6px !important;
@@ -81,25 +86,17 @@
   align-content: center;
   align-items: center;
 }
-.body {
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 10px;
-}
+
 .btn-home {
   color: #3b86ff !important;
-  font-size: 25px;
   border-radius: 6px !important;
   background-color: #ebf3ff !important;
   padding: 13px 0px 35px !important;
   align-content: center !important;
   justify-content: center !important;
-  font-weight: 400 !important;
   border: none !important;
   align-items: center !important;
-
   margin-top: 30px;
-  margin-bottom: 100px;
   width: 300px;
 }
 .state-active {
@@ -127,6 +124,14 @@
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  padding-bottom: 20px;
+}
+.icon-show {
+  color: #e1e4e8;
+  font-size: 20px;
+}
+.active {
+  color: #3b86ff !important;
 }
 .search-left > *,
 .right > *,
@@ -149,4 +154,14 @@
 
 .ant-input-affix-wrapper {
   max-width: 300px !important;
+}
+.table-footer {
+  color: #a1a1a1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-pagination-simple .ant-pagination-simple-pager input {
+  border: none !important;
+  background: none !important;
 }
