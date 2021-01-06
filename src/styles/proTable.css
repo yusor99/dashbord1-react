@@ -39,12 +39,19 @@
   font-size: 12px !important;
 }
 .product-table .ant-tag-blue {
-  border: none;
-  color: #1890ff;
-  background: #e6f7ff;
-  border-color: #91d5ff;
-  padding: 0px 13px;
-  border-radius: 6px;
+  border: none !important;
+  padding: 0px 13px !important;
+  border-radius: 6px !important;
+}
+.ant-tag-cyan {
+  border: none !important;
+  padding: 0px 13px !important;
+  border-radius: 6px !important;
+  color: #18dc6c !important;
+  background-color: rgba(24, 220, 108, 0.1) !important;
+}
+.field {
+  color: #808d93 !important;
 }
 @media screen and (max-width: 1200px) {
   .container {
