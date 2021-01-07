@@ -21,10 +21,11 @@
 .title {
   background-color: #f6f8fa;
   padding: 0px 20px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   border-radius: 6px;
+  display: flex;
 }
 .title h1 {
   font-weight: 400 !important;
@@ -33,7 +34,6 @@
   color: #949da5 !important;
   font-size: 20px;
   float: right;
-  padding-top: 48%;
 }
 .container-felides {
   max-width: 850px;
@@ -55,8 +55,29 @@
   border-radius: 6px;
 }
 .footer {
-  padding: 0px 20px 15px 25px;
+  padding: 14px 25px;
 }
 .ant-divider-horizontal {
   margin: 0px;
+}
+.container-felides-costumer {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 50px 300px 50px;
+  max-height: 500px;
+}
+.container-form-costumer {
+  z-index: 10;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 3%;
+}
+.form-costumer {
+  max-width: 1100px;
+  border-radius: 6px !important;
+  background-color: white;
+}
+.location svg {
+  color: #c0c4c7 !important;
+  transform: rotate(90deg) !important;
 }

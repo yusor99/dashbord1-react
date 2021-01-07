@@ -50,6 +50,12 @@
   color: #18dc6c !important;
   background-color: rgba(24, 220, 108, 0.1) !important;
 }
+.delete-btn {
+  color: rgb(247, 47, 87) !important;
+  background: rgba(247, 47, 87, 10%) !important;
+  outline: none !important;
+  border: none !important;
+}
 .field {
   color: #808d93 !important;
 }

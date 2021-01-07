@@ -59,6 +59,7 @@ const CostumerTable1 = () => {
   for (let i = 1; i <= 10; i++) {
     data.push({
       key: i,
+      sort: `${i}`,
       costumerName: "Costumer Name",
       specialty: `lorean hfyf chchgyt`,
       mostOrderedKit: `Most ordered kit ${i}`,
@@ -66,7 +67,7 @@ const CostumerTable1 = () => {
       ratingRate: `4/5`,
     });
   }
-  console.log(data);
+
   return (
     <>
       <div className="portable">
