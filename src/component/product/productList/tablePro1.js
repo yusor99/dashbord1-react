@@ -1,7 +1,7 @@
 import { Table, Pagination } from "antd";
 import { useState } from "react";
 import { Tag } from "antd";
-
+import { FileImageOutlined } from "@ant-design/icons";
 const { Column } = Table;
 const columns = [
   {
@@ -49,11 +49,16 @@ const TablePro2 = () => {
     selectedRowKeys,
     onChange: setSelectedRowKeys,
   };
+
   const data = [];
   for (let i = 1; i <= 10; i++) {
     data.push({
       key: i,
-      productName: "John Brown",
+      productName: [
+        "jhon rally gfd",
+        " ",
+        <FileImageOutlined style={{ color: "#e1e4e8 !important" }} />,
+      ],
       sort: `${i}`,
       the3rdStageCategory: `3rdStageCategory ${i}`,
       the2ndStageCategory: `2ndStageCategory`,

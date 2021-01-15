@@ -2,6 +2,9 @@
   max-width: 1000px;
   margin: auto;
 }
+.anticon .anticon-file-image .icon-img {
+  color: #e1e4e8 !important;
+}
 body {
   min-height: 200vh;
 }

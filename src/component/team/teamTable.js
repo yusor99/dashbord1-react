@@ -72,6 +72,7 @@ const TeamTable = () => {
     <>
       <div className="portable">
         <Table
+        
           bordered={true}
           pagination={false}
           className="product-table"

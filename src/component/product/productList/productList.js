@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Navbar from "../../navbar";
 
-import TablePro2 from "./tablePro2";
+import TablePro1 from "./tablePro1";
 import Header from "./../../header";
 
 const Product = () => {
@@ -10,7 +10,7 @@ const Product = () => {
       <Navbar />
       <div className="container">
         <Header />
-        <TablePro2 />
+        <TablePro1 />
       </div>
     </>
   );
