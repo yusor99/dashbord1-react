@@ -3,7 +3,7 @@
   margin: auto;
 }
 body {
-  max-height: 100vh;
+  min-height: 200vh;
 }
 .ant-layout-header {
   background: #24292e !important;

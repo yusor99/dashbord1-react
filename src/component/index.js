@@ -8,10 +8,13 @@ import CostumerList2 from "./costumers/costumersList/costumerList2";
 import NewCostumerForm from "./costumers/newCostumerForm";
 import DeleteCostumer from "./costumers/deleteCostumer";
 import DeleteTeam from "./team/deleteTeam";
-
+import TeamList from "./team/teamList";
+import NewTeamForm from "./team/newTeamForm";
 const Home = () => {
   return (
     <>
+      <NewTeamForm />
+      <TeamList />
       <DeleteTeam />
       <Navbar />
       <Categories />
