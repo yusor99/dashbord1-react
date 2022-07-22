@@ -9,11 +9,11 @@ import NewCostumerForm from "./costumers/newCostumerForm";
 const Home = () => {
   return (
     <>
-      <NewCostumerForm />
+    <Navbar />
+      <Categories />
+      <State />
     </>
   );
 };
 export default Home;
-/** <Navbar />
-      <Categories />
-      <State /> */
+
