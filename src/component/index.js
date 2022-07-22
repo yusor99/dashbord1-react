@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <Navbar />
       <Categories />
-      <State />
+     
     </>
   );
 };
